@@ -1,0 +1,91 @@
+.showcase{
+    height: 150px;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.showcase img {
+    width: 4%;
+    margin: auto;
+}
+
+.jumbotron {
+    background-color: azure;
+    padding:8%;
+}
+
+.workwithus {
+    width: 90%;
+    margin: 20% auto;
+    color:navy;
+    text-align: center;
+}
+
+.col1, .col2 {
+    display: inline-block;
+    width: 35%;
+}
+
+.col1:hover, .col2:hover {
+    color:silver;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.usericon {
+    width:25%;
+    height:auto;
+    margin: 5%;
+}
+
+.soc {
+    margin: 5%;
+}
+
+.social img, {
+    width:4%;
+    margin: auto;
+}
+
+.soc img:hover {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transform: scale(1.2);
+}
+
+.email {
+    width: 50%;
+    margin: 20% auto;
+    background-color: azure;
+    padding: 5%;
+    text-align: center;
+}
+
+.emailinput {
+    display: block;
+    padding:10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    border-style: none;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    margin: 10px auto;
+}
+
+.emailinput:hover {
+    box-shadow: 2px 3px 4px #8deaff;
+}
+
+.email h2 {
+    font-size: 24px;
+}
+
+.eiform {
+    display: block;
+    margin: 0px auto;
+}
