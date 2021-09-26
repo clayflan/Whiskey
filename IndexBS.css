@@ -13,6 +13,7 @@
 .jumbotron {
     background-color: azure;
     padding:8%;
+    margin-bottom: 500px;
 }
 
 .workwithus {
@@ -20,14 +21,15 @@
     margin: 20% auto;
     color:navy;
     text-align: center;
+    display:
 }
 
-.col1, .col2 {
-    display: inline-block;
+.row1 {
+    display: ;
     width: 35%;
 }
 
-.col1:hover, .col2:hover {
+.row1:hover {
     color:silver;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
