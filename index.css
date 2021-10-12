@@ -242,7 +242,7 @@ body {
 }
 
 .emailinput:hover {
-    box-shadow: 2px 3px 4px #8deaff;
+    box-shadow: 1px 2px 2px gray;
 }
 
 .email h2 {

@@ -55,8 +55,26 @@ gsap.set('.team', {
 gsap.to('.team' ,  {
     scrollTrigger: {
         trigger: '.team',
-        start: 'top 70%',
-        end: 'top 50%',
+        start: 'top 80%',
+        end: 'top 40%',
+        markers:true,
+        scrub: true,
+        toggleActions: "play reverse play reverse",
+    },
+    opacity:1,
+    duration:1,
+    stagger:.15
+});
+
+gsap.set('.email', {
+    opacity: 0
+  })
+
+gsap.to('.email' ,  {
+    scrollTrigger: {
+        trigger: '.email',
+        start: 'top 80%',
+        end: 'top 40%',
         markers:true,
         scrub: true,
         toggleActions: "play reverse play reverse",

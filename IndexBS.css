@@ -1,3 +1,36 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .pricing {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+        margin: auto;
+        margin-top: 20vh;
+        max-width: 90%;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
 .showcase{
     height: 150px;
     margin: 5%;
@@ -13,8 +46,50 @@
 .jumbotron {
     background-color: azure;
     padding:8%;
-    margin-bottom: 20em;
+    margin-bottom: 25vh;
 }
+
+.pricing {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    margin: auto;
+    margin-top: 20vh;
+    max-width: 90%;
+}
+
+.package {
+    padding: 5%;
+    border-radius: 5%;
+    color: white;
+    height: 50%;
+    flex-basis: 50%;
+}
+
+.package h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.package h4 {
+    font-size: 1rem;
+}
+
+.package1 {
+    background-color: lightskyblue;
+
+}
+
+.package2 {
+    background-color: hotpink;
+    margin: 0 2vw 0 2vw;
+}
+
+.package3 {
+    background-color: lightskyblue;
+
+}
+
 
 .workwithus {
     width: 90%;
@@ -45,29 +120,13 @@
     margin: 5%;
 }
 
-.soc {
-    margin: 5%;
-}
-
-.social img, {
-    width:4%;
-    margin: auto;
-}
-
-.soc img:hover {
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-out;
-    -webkit-transition-timing-function: ease-out;
-    transform: scale(1.2);
-}
-
 .email {
     width: 50%;
     margin: 20% auto;
-    background-color: azure;
+    background-color: rgb(249, 206, 255);
     padding: 5%;
     text-align: center;
+    color: gray;
 }
 
 .emailinput {
@@ -82,7 +141,7 @@
 }
 
 .emailinput:hover {
-    box-shadow: 2px 3px 4px #8deaff;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .email h2 {
@@ -92,4 +151,22 @@
 .eiform {
     display: block;
     margin: 0px auto;
+}
+
+.soc {
+    margin: 30%;
+    display: flex;
+}
+
+.soc img {
+    width: 8%;
+    margin: auto;
+}
+
+.soc img:hover {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transform: scale(1.2);
 }
