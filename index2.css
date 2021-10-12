@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightgrey;
+    color:white;
+}
+
+.container {
+    padding: 0%;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.pageHeader {
+    font-family: AppleGothic;
+    width:100%;
+    margin: 0 0;
+}
+
+.pageHeader img {
+    float: left;
+    width: 8%;
+    vertical-align: bottom;
+    padding: 0 55px;
+}
+
+.pageHeader h1 {
+    float: left;
+    font-family: font-family: 'Karla', sans-serif;   
+    color: white;
+}
+
+/*
+#nav {
+    margin:0 auto;
+    text-align: center;
+    padding: 2px;
+    margin: 20px auto;
+    width: 70%;
+}
+*/
+
+#nav a {
+    margin: 0 0%;
+    padding: 2%;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.navbutton {
+    border: 0px;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    font-size: 12px;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.6;
+    color: aliceblue;
+}
+
+.navbutton:hover {
+    background: transparent;
+    transform: scale(1.2);
+    color:white;
+}
+
+#nav a:hover {
+    opacity: 0.6;
+}
+
+#nav h1 {
+    font-size:12;
+}
+
+#nav h1:hover {
+    background: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    -webkit-background-clip: text;
+    background-size: 200%;
+    font-size: 12;
+}
+
+.jumbotron {
+    height: 300px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.jumbo {
+    width: 104%;
+    margin-left: -10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 4px 7px 10px #ddd;
+}
+
+.jumbotron h2 {
+    font-size: 42px;
+    color:gold;
+    margin:50px auto;
+    width: 50%;
+    
+}
+
+.showcase{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.showcase img {
+    width: 4%;
+    margin: 0 7%;
+}
+
+.workwithus {
+    width: 82%;
+    margin:6% auto;
+}
+
+.row1 {
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+.col1, .col2 {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    color:white;
+}
+
+.col1:hover .col2:hover {
+    color:darkgoldenrod;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.usericon {
+    width:30%;
+    height:auto;
+}
+
+.footer {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ccc;
+    height: 40px;
+    width:60%;
+    font-size: 8px;
+    border-radius: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color:black;
+}
+
+.inner-div {
+    height: 30%;
+    margin: auto;
+    width: 60%; 
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    background-size: 200%;
+}
+
+.button {
+    padding: 5px 24px;
+    background-color: #ff;
+    text-align: center;
+    font-size: 16;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    border: 1px solid #bbb; 
+    margin: 10px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 3px 4px #ddd;
+    display: block;
+}
+
+.button:hover {
+    color:white;
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    background-position: right center;
+    transform: scale(1.1);
+    border-color: transparent;
+}
+
+.social {
+    width:70%;
+    height:20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.social img {
+    width: 8%;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social img:hover {
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transform: scale(1.2);
+}
+
+.email{
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.emailinput {
+    padding:10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    border-style: none;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    margin: 6px 10px;
+}
+
+.emailinput:hover {
+    box-shadow: 1px 2px 2px gray;
+}
+
+.email h2 {
+    font-size: 24px;
+    margin-bottom: -15px;
+}
+
+.eiform {
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
